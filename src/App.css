@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+.title{
+  font-size:30px;
+  color:white;
+}
+.img {
+  display:flex;
+  width:600px;
+  height:500px;
+  padding:3vh 0 2vh 60vh;
+}
+@media (max-width: 768px) {
+  .img {
+    display:flex;
+    width:400px;
+    height:300px;
+    padding:2vh 0 1vh 4vh;
+  }
+}
